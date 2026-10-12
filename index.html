@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTL3R WebXR</title>
+    <style>
+      html, body { margin: 0; height: 100%; overflow: hidden; background: #e9ecef; font-family: system-ui, sans-serif; }
+      #info {
+        position: absolute; top: 12px; left: 12px; right: 12px;
+        color: #2b2a29; font-size: 14px; line-height: 1.4; pointer-events: none;
+      }
+      #info b { color: #e8412c; }
+    </style>
+  </head>
+  <body>
+    <div id="info">
+      <b>HTL3R · WebXR</b> – START AR, mit dem Strahl auf einen Tisch zeigen, Trigger drücken<br />
+      <span id="status">Prüfe WebXR-Unterstützung…</span>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
